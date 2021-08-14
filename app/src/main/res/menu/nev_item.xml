@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/dasbord"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dasbord"
+        app:cnb_iconColor="#fa6a6b"
+        app:cnb_textColor="#fa6a6b" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:title="History"
+        app:cnb_iconColor="#fa6a6b"
+        app:cnb_textColor="#fa6a6b" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"
+        app:cnb_iconColor="#fa6a6b"
+        app:cnb_textColor="#fa6a6b" />
+</menu>

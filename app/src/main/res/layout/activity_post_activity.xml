@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context=".Activities.Post_activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post for Blood"
+        android:textSize="14sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+    
+    <EditText
+        android:id="@+id/edit_text_discription_id"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:hint="Add Discription."
+        >
+
+    </EditText>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="Blood Group Needed"
+
+        >
+
+    </TextView>
+    <Spinner
+        android:id="@+id/spiner_id"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"
+        android:spinnerMode="dropdown"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:background="@drawable/button1"
+        android:dropDownSelector="@drawable/ic_baseline_arrow_drop_down_circle_24"
+        android:autofillHints="A(positive)"
+        android:scrollIndicators="right"
+
+        >
+
+    </Spinner>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginBottom="20dp"
+        >
+
+    </TextView>
+    <EditText
+
+        android:id="@+id/edit_text_location_id"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:hint="Mirpur"
+        >
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginBottom="20dp"
+        >
+
+    </TextView>
+    <EditText
+
+        android:id="@+id/edit_text_hospital_id"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:hint="Mirpur"
+        >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/post_id"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/button1"
+        android:text="Post Now"
+        android:layout_marginTop="50dp"
+        >
+
+    </Button>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">test_blod</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Blood_Group">
+        <item>Blood Group </item>
+        <item>A(Positive)</item>
+        <item>A(Negative)</item>
+        <item>B(Positive)</item>
+        <item>B(Negative)</item>
+        <item>O(Positive)</item>
+        <item>O(Negative)</item>
+        <item>AB(Positive)</item>
+        <item>AB(Negative)</item>
+
+    </string-array>
+</resources>

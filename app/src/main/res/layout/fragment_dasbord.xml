@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    tools:context=".Fragments.Dasbord">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Searching for blood ?"
+                    android:textSize="20sp"
+                    android:layout_marginTop="58dp"
+                    android:layout_alignParentTop="true"
+                    >
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="128dp"
+                        android:layout_height="124dp"
+                        android:src="@drawable/image1"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_gravity="center_horizontal"
+                        >
+
+                    </ImageView>
+                    <Button
+                        android:id="@+id/post_button_id"
+                        android:layout_width="309dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button1"
+                        android:layout_alignParentTop="true"
+                        android:text="Post now"
+                        >
+
+                    </Button>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You last donated"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="30dp"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/how_match_ago_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/textbackground"
+                    android:text="120 days ago"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/white"
+                    >
+
+                </TextView>
+                <TextView
+                    android:id="@+id/donet_or_not_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="15dp"
+                    android:text="You can donate now."
+                    android:layout_marginLeft="30dp"
+
+                    >
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="25dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="People Searching For"
+                        android:textSize="20dp"
+
+                        >
+
+                    </TextView>
+                    <EditText
+                        android:id="@+id/edit_text_1id"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content">
+
+                    </EditText>
+
+
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/how_many_people_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="@drawable/textbackground"
+                    android:text="120 People"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/white"
+
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Blood Requests :"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="50dp"
+                    android:textStyle="bold"
+                    >
+
+                </TextView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/RecycleviewId"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
